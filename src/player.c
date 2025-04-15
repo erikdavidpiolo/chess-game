@@ -6,9 +6,9 @@ char player_get_current() {
 }
 
 void player_switch() {
-    if(player_get_current() == "W"){
+    if(current_player == "W"){
         current_player = "B";
-    } else if (player_get_current() == "B"){
+    } else if (current_player == "B"){
         current_player = "W";
     }
 }
