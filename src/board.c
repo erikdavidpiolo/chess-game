@@ -22,7 +22,7 @@ void board_init() {
     // Set empty middle
     for(int i = 2; i < 5; i++){
         for(int j = 0; j < 7; j++){
-            board[i][j] = "E";
+            board[i][j] = ".";
         }
     }
 
@@ -41,9 +41,9 @@ void board_init() {
 }
 
 char board_get(int row, int col) {
-
+    return board[row][col];
 }
 
 void board_set(int row, int col, char piece) {
-
+    board[row][col] = "piece";
 }
