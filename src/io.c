@@ -5,7 +5,6 @@
 #include "io.h"
 
 static int file_to_col(char file) {
-
 }
 
 static int rank_to_row(char rank) {
